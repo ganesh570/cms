@@ -19,7 +19,7 @@ export default async function VerifyPage({
       },
     });
 
-  if (!certificate) return <div>Not Found</div>;
+  if (!certificate) return <div>Found the certificate</div>;
 
   return <CertificateVerify certificate={certificate} />;
 }

@@ -44,6 +44,7 @@ export default async function Home() {
 
   return (
     <main className="pb-20 pt-36">
+      <div className="text-xl text-sky-500">Hello Man</div>
       <LandingPage />
     </main>
   );
